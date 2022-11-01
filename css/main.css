@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -19,12 +20,18 @@ body{
 p{
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 400;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
     color: #837E9F;
 }
 
 h1{
     font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
     font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
     color: #837E9F;
 }
 
@@ -71,11 +78,44 @@ h3{
     height: 348px;
 }
 
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 34px;
+    width: 280px;
+    height: 250px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+}
+
+.tec{
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    width: 288px;
+    height: 150px;
+}
+
 .left-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
+    gap: 31px;
 }
 
 .projects{
@@ -90,4 +130,10 @@ h3{
     height: 86px;
     padding: 0 30px;
     margin-left: 30px;
-}   
+} 
+
+.github-api{
+    display: flex;
+    flex-direction: row;
+}
+
