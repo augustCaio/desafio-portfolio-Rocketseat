@@ -17,6 +17,13 @@ body{
     align-self: flex-start;
 }
 
+a{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    color: #837E9F;
+}
+
 p{
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 400;
